@@ -92,7 +92,7 @@ const Navbar = () => {
                 {auth ? [
                   <MenuItem onClick={handleClose}><Link style={{ color: "#333", textDecoration: "none" }} to={"/"}>Home</Link></MenuItem>,
                   <MenuItem onClick={handleClose}><Link style={{ color: "#333", textDecoration: "none" }} to={"/create"}>Create</Link></MenuItem>,
-                  <MenuItem onClick={handleClose}><Link style={{ color: "#333", textDecoration: "none" }} to={"/create"}>My Blogs</Link></MenuItem>,
+                  <MenuItem onClick={handleClose}><Link style={{ color: "#333", textDecoration: "none" }} to={"/userblogs"}>My Blogs</Link></MenuItem>,
                   <MenuItem onClick={() => {handleClose(); logOut()}}>Logout</MenuItem>,
                 ]
                   :
